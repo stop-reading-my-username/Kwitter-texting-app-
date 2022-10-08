@@ -30,7 +30,7 @@ function addRoom(){
       window.location="kwitter_page.html";
 
 }
-function redirectToRoomName(){
+function redirectToRoomName(room_name){
       localStorage.setItem("room_name",room_name);
       window.location="kwitter_page.html";
 }
